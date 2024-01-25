@@ -6,11 +6,17 @@ This is a dockerfile to make the use of send_and_execute.py easier.
 
 It uses the library mysmb.py from 
 
-wget https://raw.githubusercontent.com/worawit/MS17-010/master/mysmb.py
+https://raw.githubusercontent.com/worawit/MS17-010/master/mysmb.py
 
 And send_and_execute from 
 
 https://raw.githubusercontent.com/H3xL00m/MS17-010_CVE-2017-0143/main/send_and_execute.py
+
+Got inspired by this post
+
+https://ronamosa.io/docs/hacker/hackthebox/legacy/#move-to-python3
+
+Had to fix his Dockerfile to use an outdated version of impacket. 
 
 # How to use it
 
